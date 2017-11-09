@@ -1,7 +1,9 @@
-# Stack of used technologies**Language**: pure swift, version 3.
+# Stack of used technologies**Language**: pure swift, version 4.
 
-**App architecture**: MVVM, DI, Carthage.
+**App architecture**: MVVM, DI, Cocoapod.
 
 **Core frameworks**: Swinject, ReactiveCocoa, MapKit, EventKit, xmartlabs/Eureka (XLForm ported to swift).
 
-**Auxiliary frameworks**: Quick, Nimble, GoogleAnalytics, Fabric, Crashlytics, Nike-Inc/Willow (logging), Flinesoft/BartyCrouch (localization)
+**Auxiliary frameworks**: Quick, Nimble, Firebase, Crashlytics, CocoaLumberjack, Flinesoft/BartyCrouch (localization)
+
+**Tools**: Fastlane.
