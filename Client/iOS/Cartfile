@@ -1,0 +1,15 @@
+github "Quick/Quick"
+github "Quick/Nimble"
+
+github "Swinject/SwinjectStoryboard"
+github "fmo91/PluggableApplicationDelegate"
+
+github "soheilbm/Firebase"
+
+github "ReactiveCocoa/ReactiveSwift"
+github "ReactiveCocoa/ReactiveCocoa"
+
+github "xmartlabs/Eureka"
+github "apozdeyev/ReactiveEureka" "develop"
+
+github "CocoaLumberjack/CocoaLumberjack"

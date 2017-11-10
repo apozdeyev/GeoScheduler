@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BLv-Ky-8jb"; */
+"BLv-Ky-8jb.text" = "Label";
+
+/* Class = "UIViewController"; title = "ExampleScreen"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "ExampleScreen";
+
+/* Class = "UIButton"; normalTitle = "Crash"; ObjectID = "Koe-GD-MTr"; */
+"Koe-GD-MTr.normalTitle" = "Crash";
