@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		366945330D6FD1BE646C86E0 /* ICalendarProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366944329E7A42BD79B59F31 /* ICalendarProxy.swift */; };
+		3669491D15C76216ECCCFAC2 /* CalendarProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36694F1376BEA4CEAED1B89A /* CalendarProxy.swift */; };
 		F26849B81FB4BC0800FFE424 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8801FAF8EF900BB4491 /* Firebase.framework */; };
 		F26849B91FB4BC0800FFE424 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; };
 		F26849BA1FB4BC0800FFE424 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */; };
@@ -125,6 +127,13 @@
 		F2A520851FB04DAA00E8DCFB /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; };
 		F2A520861FB04DB600E8DCFB /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; };
 		F2A520871FB04DB600E8DCFB /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; };
+		F2A771E51FBB5B8800806E90 /* CalendarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A771E31FBB59E400806E90 /* CalendarEntity.swift */; };
+		F2A771E61FBB5CAC00806E90 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */; };
+		F2A771E71FBB5CAC00806E90 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; };
+		F2A771E81FBB5CAC00806E90 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; };
+		F2A8F06B1FBE059200D7DE81 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A8F06A1FBE059200D7DE81 /* EventKit.framework */; };
+		F2A8F0701FBE062F00D7DE81 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8F06D1FBE062C00D7DE81 /* Model.swift */; };
+		F2A8F0711FBE062F00D7DE81 /* Modeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8F06C1FBE062C00D7DE81 /* Modeling.swift */; };
 		F2B705741FB058580090A16F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; };
 		F2B705751FB058580090A16F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; };
 		F2B705771FB058830090A16F /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -138,7 +147,7 @@
 		F2DFC79A1FAF12BF00BB4491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7991FAF12BF00BB4491 /* AppDelegate.swift */; };
 		F2DFC7A11FAF12BF00BB4491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC7A01FAF12BF00BB4491 /* Assets.xcassets */; };
 		F2DFC7BF1FAF15DB00BB4491 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; };
-		F2DFC7C61FAF15DB00BB4491 /* ModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7C51FAF15DB00BB4491 /* ModelSpec.swift */; };
+		F2DFC7C61FAF15DB00BB4491 /* CalendarProxySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7C51FAF15DB00BB4491 /* CalendarProxySpec.swift */; };
 		F2DFC7CB1FAF15DB00BB4491 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; };
 		F2DFC7CC1FAF15DB00BB4491 /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2DFC7E31FAF160A00BB4491 /* ViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */; };
@@ -184,8 +193,6 @@
 		F2DFC8A31FAF921100BB4491 /* BootstraperApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8A21FAF921100BB4491 /* BootstraperApplicationService.swift */; };
 		F2DFC8B31FAF925500BB4491 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC8AE1FAF925500BB4491 /* Localizable.strings */; };
 		F2DFC8B41FAF925500BB4491 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC8B11FAF925500BB4491 /* Localizable.strings */; };
-		F2DFC8BB1FAF928F00BB4491 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8B71FAF928A00BB4491 /* Model.swift */; };
-		F2DFC8BC1FAF928F00BB4491 /* Modeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8B81FAF928A00BB4491 /* Modeling.swift */; };
 		F2DFC8BD1FAF929A00BB4491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC79B1FAF12BF00BB4491 /* ViewController.swift */; };
 		F2DFC8BE1FAF929D00BB4491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC79D1FAF12BF00BB4491 /* Main.storyboard */; };
 		F2DFC8C51FAF92C000BB4491 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8C21FAF92BC00BB4491 /* ViewModel.swift */; };
@@ -198,6 +205,9 @@
 		F2DFC8DE1FAF93C300BB4491 /* Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC84D1FAF17FA00BB4491 /* Helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2DFC8E01FAF947900BB4491 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC8A91FAF923100BB4491 /* GoogleService-Info.plist */; };
 		F2DFC8E21FAF94C000BB4491 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; };
+		F2FB988E1FBF0DFE00AD0673 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; };
+		F2FB988F1FBF0DFE00AD0673 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; };
+		F2FB98901FBF144F00AD0673 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A8F06A1FBE059200D7DE81 /* EventKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -284,6 +294,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = F2DFC8341FAF17CD00BB4491;
 			remoteInfo = Helpers;
+		};
+		F2FB98911FBF14D400AD0673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFC78E1FAF12BF00BB4491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFC7951FAF12BF00BB4491;
+			remoteInfo = GeoScheduler;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -449,11 +466,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		366944329E7A42BD79B59F31 /* ICalendarProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICalendarProxy.swift; sourceTree = "<group>"; };
+		36694F1376BEA4CEAED1B89A /* CalendarProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarProxy.swift; sourceTree = "<group>"; };
 		F26F83BE1FB4C7BD00932765 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26F83C21FB4C7BD00932765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F26F83E71FB4C96200932765 /* AppDelegateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateSpec.swift; sourceTree = "<group>"; };
 		F2A520801FB04D9C00E8DCFB /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		F2A520811FB04D9C00E8DCFB /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		F2A771E31FBB59E400806E90 /* CalendarEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEntity.swift; sourceTree = "<group>"; };
+		F2A8F06A1FBE059200D7DE81 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F2A8F06C1FBE062C00D7DE81 /* Modeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modeling.swift; sourceTree = "<group>"; };
+		F2A8F06D1FBE062C00D7DE81 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F2DFC7961FAF12BF00BB4491 /* GeoScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFC7991FAF12BF00BB4491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2DFC79B1FAF12BF00BB4491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -462,7 +485,7 @@
 		F2DFC7A51FAF12BF00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2DFC7B61FAF15DA00BB4491 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFC7BE1FAF15DB00BB4491 /* ModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2DFC7C51FAF15DB00BB4491 /* ModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSpec.swift; sourceTree = "<group>"; };
+		F2DFC7C51FAF15DB00BB4491 /* CalendarProxySpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarProxySpec.swift; sourceTree = "<group>"; };
 		F2DFC7C71FAF15DB00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFC7E21FAF160A00BB4491 /* ViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -509,8 +532,6 @@
 		F2DFC8A91FAF923100BB4491 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F2DFC8AF1FAF925500BB4491 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Localizable.strings; sourceTree = "<group>"; };
 		F2DFC8B21FAF925500BB4491 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		F2DFC8B71FAF928A00BB4491 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		F2DFC8B81FAF928A00BB4491 /* Modeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modeling.swift; sourceTree = "<group>"; };
 		F2DFC8BF1FAF92AC00BB4491 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		F2DFC8C01FAF92AE00BB4491 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		F2DFC8C11FAF92BC00BB4491 /* ViewModeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModeling.swift; sourceTree = "<group>"; };
@@ -556,6 +577,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A8F06B1FBE059200D7DE81 /* EventKit.framework in Frameworks */,
+				F2A771E61FBB5CAC00806E90 /* ReactiveCocoa.framework in Frameworks */,
+				F2A771E71FBB5CAC00806E90 /* ReactiveSwift.framework in Frameworks */,
+				F2A771E81FBB5CAC00806E90 /* Result.framework in Frameworks */,
 				F2DFC86E1FAF8E5B00BB4491 /* Helpers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +589,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FB98901FBF144F00AD0673 /* EventKit.framework in Frameworks */,
+				F2FB988E1FBF0DFE00AD0673 /* ReactiveSwift.framework in Frameworks */,
+				F2FB988F1FBF0DFE00AD0673 /* Result.framework in Frameworks */,
 				F2A520861FB04DB600E8DCFB /* Nimble.framework in Frameworks */,
 				F2A520871FB04DB600E8DCFB /* Quick.framework in Frameworks */,
 				F2DFC7BF1FAF15DB00BB4491 /* Model.framework in Frameworks */,
@@ -774,8 +802,11 @@
 		F2DFC7B71FAF15DA00BB4491 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F2DFC8B71FAF928A00BB4491 /* Model.swift */,
-				F2DFC8B81FAF928A00BB4491 /* Modeling.swift */,
+				F2A8F06D1FBE062C00D7DE81 /* Model.swift */,
+				F2A8F06C1FBE062C00D7DE81 /* Modeling.swift */,
+				366944329E7A42BD79B59F31 /* ICalendarProxy.swift */,
+				36694F1376BEA4CEAED1B89A /* CalendarProxy.swift */,
+				F2A771E31FBB59E400806E90 /* CalendarEntity.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -783,7 +814,7 @@
 		F2DFC7C41FAF15DB00BB4491 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F2DFC7C51FAF15DB00BB4491 /* ModelSpec.swift */,
+				F2DFC7C51FAF15DB00BB4491 /* CalendarProxySpec.swift */,
 				F2DFC7C71FAF15DB00BB4491 /* Info.plist */,
 			);
 			path = Model;
@@ -894,6 +925,7 @@
 		F2DFC86D1FAF8E5B00BB4491 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F2A8F06A1FBE059200D7DE81 /* EventKit.framework */,
 				F2A520801FB04D9C00E8DCFB /* Nimble.framework */,
 				F2A520811FB04D9C00E8DCFB /* Quick.framework */,
 				F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */,
@@ -1102,6 +1134,7 @@
 			);
 			dependencies = (
 				F2DFC7C11FAF15DB00BB4491 /* PBXTargetDependency */,
+				F2FB98921FBF14D400AD0673 /* PBXTargetDependency */,
 			);
 			name = ModelTests;
 			productName = ModelTests;
@@ -1247,6 +1280,7 @@
 					F2DFC7BD1FAF15DB00BB4491 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						TestTargetID = F2DFC7951FAF12BF00BB4491;
 					};
 					F2DFC7D91FAF160A00BB4491 = {
 						CreatedOnToolsVersion = 9.0;
@@ -1453,8 +1487,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DFC8BC1FAF928F00BB4491 /* Modeling.swift in Sources */,
-				F2DFC8BB1FAF928F00BB4491 /* Model.swift in Sources */,
+				366945330D6FD1BE646C86E0 /* ICalendarProxy.swift in Sources */,
+				F2A8F0711FBE062F00D7DE81 /* Modeling.swift in Sources */,
+				F2A771E51FBB5B8800806E90 /* CalendarEntity.swift in Sources */,
+				3669491D15C76216ECCCFAC2 /* CalendarProxy.swift in Sources */,
+				F2A8F0701FBE062F00D7DE81 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1462,7 +1499,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DFC7C61FAF15DB00BB4491 /* ModelSpec.swift in Sources */,
+				F2DFC7C61FAF15DB00BB4491 /* CalendarProxySpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1582,6 +1619,11 @@
 			isa = PBXTargetDependency;
 			target = F2DFC8341FAF17CD00BB4491 /* Helpers */;
 			targetProxy = F2DFC8A01FAF903D00BB4491 /* PBXContainerItemProxy */;
+		};
+		F2FB98921FBF14D400AD0673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFC7951FAF12BF00BB4491 /* GeoScheduler */;
+			targetProxy = F2FB98911FBF14D400AD0673 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1817,6 +1859,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GeoScheduler/Resources/Configs/Model/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1842,6 +1888,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GeoScheduler/Resources/Configs/Model/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1872,6 +1922,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoScheduler.app/GeoScheduler";
 			};
 			name = Debug;
 		};
@@ -1891,6 +1942,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoScheduler.app/GeoScheduler";
 			};
 			name = Release;
 		};

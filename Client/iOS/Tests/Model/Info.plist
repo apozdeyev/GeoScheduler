@@ -16,6 +16,8 @@
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>We need access to calendar to get events and shcedule them.</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 </dict>
