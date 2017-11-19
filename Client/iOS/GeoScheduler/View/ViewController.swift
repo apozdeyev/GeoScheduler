@@ -19,10 +19,11 @@ public final class ViewController: UIViewController {
 		
 		LogDebug("ViewController loaded")
 		
-		label.text = viewModel?.test
+//		label.text = viewModel?.test
 	}
 	
-	public var viewModel: ViewModeling?
+	// TODO:
+//	public var viewModel: ViewModeling?
 	
 	@IBAction func onCrashButtonTapped() {
 		crash()
