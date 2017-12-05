@@ -13,7 +13,7 @@ import Helpers
 
 @UIApplicationMain
 class AppDelegate: PluggableApplicationDelegate {
-	
+
 	override var services: [ApplicationService] {
 		return [
 			BootstraperApplicationService()

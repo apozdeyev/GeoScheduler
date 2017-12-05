@@ -16,7 +16,7 @@ class ViewSpec: QuickSpec {
 		describe("View") {
 			it("method test.") {
 				let model = Model()
-				
+
 				expect(model).notTo(beNil())
 				expect(model.test()) == "test"
 			}

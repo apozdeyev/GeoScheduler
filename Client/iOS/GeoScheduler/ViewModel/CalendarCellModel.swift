@@ -13,11 +13,11 @@ import Model
 public final class CalendarCellModel: NSObject, ICalendarCellModel {
 	public let id: String
 	public let title: String
-	
+
 	internal init(calendar: CalendarEntity) {
 		id = calendar.calendarIdentifier
 		title = calendar.title
-		
+
 		super.init()
 	}
 }

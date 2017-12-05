@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		366945330D6FD1BE646C86E0 /* ICalendarProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366944329E7A42BD79B59F31 /* ICalendarProxy.swift */; };
 		3669491D15C76216ECCCFAC2 /* CalendarProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36694F1376BEA4CEAED1B89A /* CalendarProxy.swift */; };
+		36694D3525FAF941BF3CCB05 /* SignalProducer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366948D235EF7290137B926A /* SignalProducer+Helpers.swift */; };
+		F257089A1FC34EAD00A791AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25708991FC34EAD00A791AA /* UIKit.framework */; };
 		F26849B81FB4BC0800FFE424 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8801FAF8EF900BB4491 /* Firebase.framework */; };
 		F26849B91FB4BC0800FFE424 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; };
 		F26849BA1FB4BC0800FFE424 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */; };
@@ -120,6 +122,7 @@
 		F26F83E51FB4C92000932765 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F26F83E61FB4C92000932765 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F26F83E91FB4C96F00932765 /* AppDelegateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F83E71FB4C96200932765 /* AppDelegateSpec.swift */; };
+		F27229721FCEF22A005A4973 /* ReactiveEureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8791FAF8EF900BB4491 /* ReactiveEureka.framework */; };
 		F2A5207F1FB046D600E8DCFB /* FirebaseApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8D01FAF92C900BB4491 /* FirebaseApplicationService.swift */; };
 		F2A520821FB04D9C00E8DCFB /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; };
 		F2A520831FB04D9C00E8DCFB /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; };
@@ -142,6 +145,8 @@
 		F2B7057E1FB058B20090A16F /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2B705801FB058C20090A16F /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2B705811FB058C20090A16F /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2D7717B1FD705AF001EC88C /* ICalendarCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D771771FD70595001EC88C /* ICalendarCellModel.swift */; };
+		F2D7717C1FD705AF001EC88C /* ICalendarsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D771781FD70595001EC88C /* ICalendarsListModel.swift */; };
 		F2DFC79A1FAF12BF00BB4491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC7991FAF12BF00BB4491 /* AppDelegate.swift */; };
 		F2DFC7A11FAF12BF00BB4491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC7A01FAF12BF00BB4491 /* Assets.xcassets */; };
 		F2DFC7BF1FAF15DB00BB4491 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7B61FAF15DA00BB4491 /* Model.framework */; };
@@ -190,7 +195,7 @@
 		F2DFC8A31FAF921100BB4491 /* BootstraperApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8A21FAF921100BB4491 /* BootstraperApplicationService.swift */; };
 		F2DFC8B31FAF925500BB4491 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC8AE1FAF925500BB4491 /* Localizable.strings */; };
 		F2DFC8B41FAF925500BB4491 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC8B11FAF925500BB4491 /* Localizable.strings */; };
-		F2DFC8BD1FAF929A00BB4491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC79B1FAF12BF00BB4491 /* ViewController.swift */; };
+		F2DFC8BD1FAF929A00BB4491 /* CalendarsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC79B1FAF12BF00BB4491 /* CalendarsListVC.swift */; };
 		F2DFC8BE1FAF929D00BB4491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC79D1FAF12BF00BB4491 /* Main.storyboard */; };
 		F2DFC8D91FAF92D900BB4491 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8CD1FAF92C900BB4491 /* LocalizedString.swift */; };
 		F2DFC8DA1FAF92E000BB4491 /* CustomCocoaLumberjackFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8C81FAF92C900BB4491 /* CustomCocoaLumberjackFormatter.swift */; };
@@ -201,16 +206,18 @@
 		F2DFC8E01FAF947900BB4491 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC8A91FAF923100BB4491 /* GoogleService-Info.plist */; };
 		F2DFC8E21FAF94C000BB4491 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; };
 		F2EF5B681FC0A8CF00E85131 /* CalendarsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF5B671FC0A8CF00E85131 /* CalendarsListModel.swift */; };
-		F2EF5B6A1FC1665E00E85131 /* ICalendarCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF5B691FC1665E00E85131 /* ICalendarCellModel.swift */; };
 		F2EF5B6C1FC1666F00E85131 /* CalendarCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF5B6B1FC1666F00E85131 /* CalendarCellModel.swift */; };
 		F2EF5B6F1FC169C800E85131 /* CalendarCellModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF5B6D1FC169BD00E85131 /* CalendarCellModelSpec.swift */; };
 		F2EF5B711FC1775200E85131 /* CalendarProxyStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF5B701FC1775200E85131 /* CalendarProxyStub.swift */; };
 		F2EF5B721FC17C4B00E85131 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; };
 		F2EF5B731FC17C4B00E85131 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; };
+		F2EF5B801FC3370900E85131 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8841FAF8EF900BB4491 /* Eureka.framework */; };
+		F2EF5B811FC33D9C00E85131 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */; };
+		F2EF5B821FC33D9C00E85131 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; };
+		F2EF5B831FC33F0500E85131 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; };
 		F2FB988E1FBF0DFE00AD0673 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; };
 		F2FB988F1FBF0DFE00AD0673 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; };
 		F2FB98901FBF144F00AD0673 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A8F06A1FBE059200D7DE81 /* EventKit.framework */; };
-		F2FB98941FC0A6CF00AD0673 /* ICalendarsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB98931FC0A6CF00AD0673 /* ICalendarsListModel.swift */; };
 		F2FB98951FC0A79F00AD0673 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; };
 		F2FB98961FC0A79F00AD0673 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; };
 		F2FB98991FC0A7F500AD0673 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */; };
@@ -480,7 +487,9 @@
 
 /* Begin PBXFileReference section */
 		366944329E7A42BD79B59F31 /* ICalendarProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICalendarProxy.swift; sourceTree = "<group>"; };
+		366948D235EF7290137B926A /* SignalProducer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignalProducer+Helpers.swift"; sourceTree = "<group>"; };
 		36694F1376BEA4CEAED1B89A /* CalendarProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarProxy.swift; sourceTree = "<group>"; };
+		F25708991FC34EAD00A791AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F26F83BE1FB4C7BD00932765 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26F83C21FB4C7BD00932765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F26F83E71FB4C96200932765 /* AppDelegateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateSpec.swift; sourceTree = "<group>"; };
@@ -488,9 +497,11 @@
 		F2A520811FB04D9C00E8DCFB /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		F2A771E31FBB59E400806E90 /* CalendarEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEntity.swift; sourceTree = "<group>"; };
 		F2A8F06A1FBE059200D7DE81 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F2D771771FD70595001EC88C /* ICalendarCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICalendarCellModel.swift; sourceTree = "<group>"; };
+		F2D771781FD70595001EC88C /* ICalendarsListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICalendarsListModel.swift; sourceTree = "<group>"; };
 		F2DFC7961FAF12BF00BB4491 /* GeoScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFC7991FAF12BF00BB4491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2DFC79B1FAF12BF00BB4491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2DFC79B1FAF12BF00BB4491 /* CalendarsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarsListVC.swift; sourceTree = "<group>"; };
 		F2DFC79E1FAF12BF00BB4491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2DFC7A01FAF12BF00BB4491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2DFC7A51FAF12BF00BB4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -552,11 +563,9 @@
 		F2DFC8D01FAF92C900BB4491 /* FirebaseApplicationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseApplicationService.swift; sourceTree = "<group>"; };
 		F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = Carthage/Build/iOS/Protobuf.framework; sourceTree = "<group>"; };
 		F2EF5B671FC0A8CF00E85131 /* CalendarsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarsListModel.swift; sourceTree = "<group>"; };
-		F2EF5B691FC1665E00E85131 /* ICalendarCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICalendarCellModel.swift; sourceTree = "<group>"; };
 		F2EF5B6B1FC1666F00E85131 /* CalendarCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCellModel.swift; sourceTree = "<group>"; };
 		F2EF5B6D1FC169BD00E85131 /* CalendarCellModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCellModelSpec.swift; sourceTree = "<group>"; };
 		F2EF5B701FC1775200E85131 /* CalendarProxyStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarProxyStub.swift; sourceTree = "<group>"; };
-		F2FB98931FC0A6CF00AD0673 /* ICalendarsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICalendarsListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -640,6 +649,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27229721FCEF22A005A4973 /* ReactiveEureka.framework in Frameworks */,
+				F257089A1FC34EAD00A791AA /* UIKit.framework in Frameworks */,
+				F2EF5B831FC33F0500E85131 /* Result.framework in Frameworks */,
+				F2EF5B811FC33D9C00E85131 /* ReactiveCocoa.framework in Frameworks */,
+				F2EF5B821FC33D9C00E85131 /* ReactiveSwift.framework in Frameworks */,
+				F2EF5B801FC3370900E85131 /* Eureka.framework in Frameworks */,
 				F2DFC8711FAF8E6700BB4491 /* Helpers.framework in Frameworks */,
 				F2DFC8721FAF8E6700BB4491 /* ViewModel.framework in Frameworks */,
 			);
@@ -711,6 +726,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3669436C3D992D3E9CDD2340 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				366948D235EF7290137B926A /* SignalProducer+Helpers.swift */,
+			);
+			path = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
 		F26F83BF1FB4C7BD00932765 /* AppTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -812,7 +835,7 @@
 		F2DFC7B01FAF13FC00BB4491 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F2DFC79B1FAF12BF00BB4491 /* ViewController.swift */,
+				F2DFC79B1FAF12BF00BB4491 /* CalendarsListVC.swift */,
 				F2DFC79D1FAF12BF00BB4491 /* Main.storyboard */,
 			);
 			path = View;
@@ -852,9 +875,9 @@
 		F2DFC7DB1FAF160A00BB4491 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				F2FB98931FC0A6CF00AD0673 /* ICalendarsListModel.swift */,
+				F2D771771FD70595001EC88C /* ICalendarCellModel.swift */,
+				F2D771781FD70595001EC88C /* ICalendarsListModel.swift */,
 				F2EF5B671FC0A8CF00E85131 /* CalendarsListModel.swift */,
-				F2EF5B691FC1665E00E85131 /* ICalendarCellModel.swift */,
 				F2EF5B6B1FC1666F00E85131 /* CalendarCellModel.swift */,
 			);
 			path = ViewModel;
@@ -920,6 +943,7 @@
 				F2DFC8CF1FAF92C900BB4491 /* Firebase */,
 				F2DFC8CC1FAF92C900BB4491 /* Localization */,
 				F2DFC8C71FAF92C900BB4491 /* Logging */,
+				3669436C3D992D3E9CDD2340 /* ReactiveCocoa */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -945,6 +969,7 @@
 		F2DFC86D1FAF8E5B00BB4491 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F25708991FC34EAD00A791AA /* UIKit.framework */,
 				F2A8F06A1FBE059200D7DE81 /* EventKit.framework */,
 				F2A520801FB04D9C00E8DCFB /* Nimble.framework */,
 				F2A520811FB04D9C00E8DCFB /* Quick.framework */,
@@ -1528,8 +1553,8 @@
 			files = (
 				F2EF5B681FC0A8CF00E85131 /* CalendarsListModel.swift in Sources */,
 				F2EF5B6C1FC1666F00E85131 /* CalendarCellModel.swift in Sources */,
-				F2FB98941FC0A6CF00AD0673 /* ICalendarsListModel.swift in Sources */,
-				F2EF5B6A1FC1665E00E85131 /* ICalendarCellModel.swift in Sources */,
+				F2D7717B1FD705AF001EC88C /* ICalendarCellModel.swift in Sources */,
+				F2D7717C1FD705AF001EC88C /* ICalendarsListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1546,7 +1571,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DFC8BD1FAF929A00BB4491 /* ViewController.swift in Sources */,
+				F2DFC8BD1FAF929A00BB4491 /* CalendarsListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1568,6 +1593,7 @@
 				F2DFC8DD1FAF92E000BB4491 /* LoggingImpl.swift in Sources */,
 				F2DFC8DA1FAF92E000BB4491 /* CustomCocoaLumberjackFormatter.swift in Sources */,
 				F2DFC8DB1FAF92E000BB4491 /* Logger.swift in Sources */,
+				36694D3525FAF941BF3CCB05 /* SignalProducer+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2080,6 +2106,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GeoScheduler/Resources/Configs/View/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -2105,6 +2135,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GeoScheduler/Resources/Configs/View/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

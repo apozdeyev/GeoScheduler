@@ -8,12 +8,13 @@
 
 import Foundation
 import ReactiveSwift
-import Model
 import Result
 
 public protocol ICalendarsListModel {
 	var isAccesToCalendarGranted: Property<Bool> { get }
-	var Calendars: Property<[CalendarEntity]> { get }
-	
+	var calendars: Property<[ICalendarCellModel]> { get }
+
 	var requestAccesToCalendar: Action<(), Bool, AnyError> { get }
+
+	var requestCalendars: Action<(), [ICalendarCellModel], AnyError> { get }
 }

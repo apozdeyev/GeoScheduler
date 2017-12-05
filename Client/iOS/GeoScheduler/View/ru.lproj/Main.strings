@@ -1,9 +1,9 @@
 
-/* Class = "UILabel"; text = "Label"; ObjectID = "BLv-Ky-8jb"; */
-"BLv-Ky-8jb.text" = "Label";
+/* Class = "UILabel"; text = "Access to calendars is not granted."; ObjectID = "j0y-pQ-iFb"; */
+"j0y-pQ-iFb.text" = "Access to calendars is not granted.";
 
-/* Class = "UIViewController"; title = "ExampleScreen"; ObjectID = "BYZ-38-t0r"; */
-"BYZ-38-t0r.title" = "ExampleScreen";
+/* Class = "UIButton"; normalTitle = "Requrst access"; ObjectID = "lSd-8J-J12"; */
+"lSd-8J-J12.normalTitle" = "Requrst access";
 
-/* Class = "UIButton"; normalTitle = "Crash"; ObjectID = "Koe-GD-MTr"; */
-"Koe-GD-MTr.normalTitle" = "Crash";
+/* Class = "UIViewController"; title = "Calendars"; ObjectID = "bfk-wq-796"; */
+"bfk-wq-796.title" = "Calendars";

@@ -21,20 +21,20 @@ class AppDelegateSpec: QuickSpec {
 		beforeEach {
 			container = BootstraperApplicationService().container
 		}
-		
+
 		describe("Container") {
 			it("resolves every service type.") {
 				// Models
 				expect(container.resolve(Modeling.self)).notTo(beNil())
-				
+
 				// ViewModels
 				expect(container.resolve(ViewModeling.self)).notTo(beNil())
 			}
 			it("injects view models to views.") {
-				let bundle = Bundle(for: ViewController.self)
+				let bundle = Bundle(for: CalendarsListVC.self)
 				let storyboard = SwinjectStoryboard.create(name: "Main", bundle: bundle, container: container)
 				let viewController = storyboard.instantiateViewController(withIdentifier: "ViewController")
-					as! ViewController
+				as! CalendarsListVC
 				expect(viewController.viewModel).notTo(beNil())
 			}
 		}

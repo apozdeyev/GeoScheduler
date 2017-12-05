@@ -2,4 +2,68 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeoScheduler/View/CalendarsListVC.swift"
+            timestampString = "534187042.598966"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeoScheduler/ViewModel/CalendarsListModel.swift"
+            timestampString = "533674282.815068"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "requestAccesToCalendar"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; ReactiveSwift.SignalProducer&lt;Swift.Bool, Result.AnyError&gt; in ViewModel.CalendarsListModel.requestAccesToCalendar.getter : ReactiveSwift.Action&lt;(), Swift.Bool, Result.AnyError&gt;"
+                  moduleName = "ViewModel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toly/Documents/Projects/GeoScheduler/Client/iOS/GeoScheduler/ViewModel/CalendarsListModel.swift"
+                  timestampString = "532935521.332699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1350">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 () -&gt; ReactiveSwift.SignalProducer&lt;Swift.Bool, Result.AnyError&gt; in ViewModel.CalendarsListModel.requestAccesToCalendar.getter : ReactiveSwift.Action&lt;(), Swift.Bool, Result.AnyError&gt;"
+                  moduleName = "ViewModel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toly/Documents/Projects/GeoScheduler/Client/iOS/GeoScheduler/ViewModel/CalendarsListModel.swift"
+                  timestampString = "532935521.335683"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

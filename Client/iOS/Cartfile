@@ -6,8 +6,7 @@ github "fmo91/PluggableApplicationDelegate"
 
 github "soheilbm/Firebase"
 
-github "ReactiveCocoa/ReactiveSwift"
-github "ReactiveCocoa/ReactiveCocoa"
+github "ReactiveCocoa/ReactiveCocoa" ~> 6.0
 
 github "xmartlabs/Eureka"
 github "apozdeyev/ReactiveEureka" "develop"

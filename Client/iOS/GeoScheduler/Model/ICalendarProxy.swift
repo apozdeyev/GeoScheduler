@@ -8,8 +8,8 @@ import Result
 
 public protocol ICalendarProxy {
 	func isAccesToCalendarGranted() -> Bool
-	
+
 	func requestAccesToCalendar() -> SignalProducer<Bool, AnyError>
-	
-	func requestCalendars() -> SignalProducer<[ CalendarEntity ], AnyError>
+
+	func requestCalendars() -> SignalProducer<[CalendarEntity], AnyError>
 }
