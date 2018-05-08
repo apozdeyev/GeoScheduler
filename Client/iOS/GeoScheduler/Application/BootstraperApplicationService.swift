@@ -24,12 +24,15 @@ final class BootstraperApplicationService: NSObject, ApplicationService {
 
 		// View models
 		container.register(ICalendarsListModel.self) { r in
-			r.resolve(CalendarsListModel.self)!
-		}
-		container.register(ICalendarsListModel.self) { r in
 			let viewModel = CalendarsListModel(calendarProxy: r.resolve(ICalendarProxy.self)!)
 			return viewModel
 		}.inObjectScope(.container)
+
+		// TODO:
+//		container.register(ICalendarEventsListModel.self) { r in
+//			let viewModel = CalendarEventsListModel(calendarProxy: r.resolve(ICalendarProxy.self)!, )
+//			return viewModel
+//		}.inObjectScope(.container)
 
 		// Views
 		container.storyboardInitCompleted(CalendarsListVC.self) { r, c in

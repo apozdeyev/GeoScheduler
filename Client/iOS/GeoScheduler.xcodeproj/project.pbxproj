@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36694331AD1ACB117BC3EF12 /* IEventCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36694A53B87C949052AAAB0E /* IEventCellModel.swift */; };
 		366945330D6FD1BE646C86E0 /* ICalendarProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366944329E7A42BD79B59F31 /* ICalendarProxy.swift */; };
+		3669468CDA92A94977FAB3FE /* EventCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3669437FE65B11E4354BDCAD /* EventCellModel.swift */; };
 		3669491D15C76216ECCCFAC2 /* CalendarProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36694F1376BEA4CEAED1B89A /* CalendarProxy.swift */; };
+		36694C6A79C725F60406C347 /* Property+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36694E32C3333134726E2BF8 /* Property+Helpers.swift */; };
 		36694D3525FAF941BF3CCB05 /* SignalProducer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366948D235EF7290137B926A /* SignalProducer+Helpers.swift */; };
+		36694EA2A373BEDAD8E3B90B /* EventEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366948E5FAA2A1E87605D7A3 /* EventEntity.swift */; };
+		36694EE3FD0FF02284E98BAA /* ICalendarEventsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3669478618F6DEBEF15BD687 /* ICalendarEventsListModel.swift */; };
+		36694F528B5646EF266441A0 /* CalendarEventsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3669479C233F15DB2E89E910 /* CalendarEventsListModel.swift */; };
 		F257089A1FC34EAD00A791AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25708991FC34EAD00A791AA /* UIKit.framework */; };
 		F26849B81FB4BC0800FFE424 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8801FAF8EF900BB4491 /* Firebase.framework */; };
 		F26849B91FB4BC0800FFE424 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; };
@@ -123,6 +129,15 @@
 		F26F83E61FB4C92000932765 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F26F83E91FB4C96F00932765 /* AppDelegateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F83E71FB4C96200932765 /* AppDelegateSpec.swift */; };
 		F27229721FCEF22A005A4973 /* ReactiveEureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8791FAF8EF900BB4491 /* ReactiveEureka.framework */; };
+		F27631A620A1CA4E00956E0D /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8821FAF8EF900BB4491 /* FirebaseAnalytics.framework */; };
+		F27631A720A1CA4E00956E0D /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87B1FAF8EF900BB4491 /* FirebaseCore.framework */; };
+		F27631A820A1CA4E00956E0D /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8811FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework */; };
+		F27631A920A1CA4E00956E0D /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8831FAF8EF900BB4491 /* FirebaseCrash.framework */; };
+		F27631AA20A1CA4E00956E0D /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */; };
+		F27631AB20A1CA4E00956E0D /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8861FAF8EF900BB4491 /* FirebaseNanoPB.framework */; };
+		F27631AC20A1CA5F00956E0D /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; };
+		F27631AD20A1CA7000956E0D /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87C1FAF8EF900BB4491 /* nanopb.framework */; };
+		F29369D820A1EB560030247D /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8871FAF8EF900BB4491 /* GoogleToolboxForMac.framework */; };
 		F2A5207F1FB046D600E8DCFB /* FirebaseApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8D01FAF92C900BB4491 /* FirebaseApplicationService.swift */; };
 		F2A520821FB04D9C00E8DCFB /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520801FB04D9C00E8DCFB /* Nimble.framework */; };
 		F2A520831FB04D9C00E8DCFB /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A520811FB04D9C00E8DCFB /* Quick.framework */; };
@@ -174,23 +189,14 @@
 		F2DFC8721FAF8E6700BB4491 /* ViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC7DA1FAF160A00BB4491 /* ViewModel.framework */; };
 		F2DFC8751FAF8E8700BB4491 /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8731FAF8E8700BB4491 /* SwinjectStoryboard.framework */; };
 		F2DFC8761FAF8E8700BB4491 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8741FAF8E8700BB4491 /* Swinject.framework */; };
-		F2DFC8881FAF8EF900BB4491 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8771FAF8EF900BB4491 /* FirebaseInstanceID.framework */; };
 		F2DFC8891FAF8EF900BB4491 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8781FAF8EF900BB4491 /* CocoaLumberjack.framework */; };
 		F2DFC88A1FAF8EF900BB4491 /* ReactiveEureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8791FAF8EF900BB4491 /* ReactiveEureka.framework */; };
 		F2DFC88B1FAF8EF900BB4491 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; };
-		F2DFC88C1FAF8EF900BB4491 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87B1FAF8EF900BB4491 /* FirebaseCore.framework */; };
-		F2DFC88D1FAF8EF900BB4491 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87C1FAF8EF900BB4491 /* nanopb.framework */; };
 		F2DFC88E1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87D1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework */; };
 		F2DFC88F1FAF8EF900BB4491 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; };
 		F2DFC8901FAF8EF900BB4491 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87F1FAF8EF900BB4491 /* CocoaLumberjackSwift.framework */; };
-		F2DFC8911FAF8EF900BB4491 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8801FAF8EF900BB4491 /* Firebase.framework */; };
-		F2DFC8921FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8811FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework */; };
-		F2DFC8931FAF8EF900BB4491 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8821FAF8EF900BB4491 /* FirebaseAnalytics.framework */; };
-		F2DFC8941FAF8EF900BB4491 /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8831FAF8EF900BB4491 /* FirebaseCrash.framework */; };
 		F2DFC8951FAF8EF900BB4491 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8841FAF8EF900BB4491 /* Eureka.framework */; };
 		F2DFC8961FAF8EF900BB4491 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */; };
-		F2DFC8971FAF8EF900BB4491 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8861FAF8EF900BB4491 /* FirebaseNanoPB.framework */; };
-		F2DFC8981FAF8EF900BB4491 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8871FAF8EF900BB4491 /* GoogleToolboxForMac.framework */; };
 		F2DFC8991FAF8F0A00BB4491 /* PluggableApplicationDelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87D1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework */; };
 		F2DFC8A31FAF921100BB4491 /* BootstraperApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8A21FAF921100BB4491 /* BootstraperApplicationService.swift */; };
 		F2DFC8B31FAF925500BB4491 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC8AE1FAF925500BB4491 /* Localizable.strings */; };
@@ -204,7 +210,6 @@
 		F2DFC8DD1FAF92E000BB4491 /* LoggingImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFC8CB1FAF92C900BB4491 /* LoggingImpl.swift */; };
 		F2DFC8DE1FAF93C300BB4491 /* Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFC84D1FAF17FA00BB4491 /* Helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2DFC8E01FAF947900BB4491 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2DFC8A91FAF923100BB4491 /* GoogleService-Info.plist */; };
-		F2DFC8E21FAF94C000BB4491 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8E11FAF94C000BB4491 /* Protobuf.framework */; };
 		F2EF5B681FC0A8CF00E85131 /* CalendarsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF5B671FC0A8CF00E85131 /* CalendarsListModel.swift */; };
 		F2EF5B6C1FC1666F00E85131 /* CalendarCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF5B6B1FC1666F00E85131 /* CalendarCellModel.swift */; };
 		F2EF5B6F1FC169C800E85131 /* CalendarCellModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF5B6D1FC169BD00E85131 /* CalendarCellModelSpec.swift */; };
@@ -221,6 +226,7 @@
 		F2FB98951FC0A79F00AD0673 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87E1FAF8EF900BB4491 /* ReactiveSwift.framework */; };
 		F2FB98961FC0A79F00AD0673 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC87A1FAF8EF900BB4491 /* Result.framework */; };
 		F2FB98991FC0A7F500AD0673 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DFC8851FAF8EF900BB4491 /* ReactiveCocoa.framework */; };
+		F2FF26A21FD81E94005CC598 /* EventsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF26A11FD81E94005CC598 /* EventsListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -486,13 +492,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3669437FE65B11E4354BDCAD /* EventCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCellModel.swift; sourceTree = "<group>"; };
 		366944329E7A42BD79B59F31 /* ICalendarProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICalendarProxy.swift; sourceTree = "<group>"; };
+		3669478618F6DEBEF15BD687 /* ICalendarEventsListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICalendarEventsListModel.swift; sourceTree = "<group>"; };
+		3669479C233F15DB2E89E910 /* CalendarEventsListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEventsListModel.swift; sourceTree = "<group>"; };
 		366948D235EF7290137B926A /* SignalProducer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignalProducer+Helpers.swift"; sourceTree = "<group>"; };
+		366948E5FAA2A1E87605D7A3 /* EventEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventEntity.swift; sourceTree = "<group>"; };
+		36694A53B87C949052AAAB0E /* IEventCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IEventCellModel.swift; sourceTree = "<group>"; };
+		36694E32C3333134726E2BF8 /* Property+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Property+Helpers.swift"; sourceTree = "<group>"; };
 		36694F1376BEA4CEAED1B89A /* CalendarProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarProxy.swift; sourceTree = "<group>"; };
 		F25708991FC34EAD00A791AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F26F83BE1FB4C7BD00932765 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26F83C21FB4C7BD00932765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F26F83E71FB4C96200932765 /* AppDelegateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateSpec.swift; sourceTree = "<group>"; };
+		F27631AF20A1CAA400956E0D /* GTMOAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMOAuth2.framework; path = Carthage/Build/iOS/GTMOAuth2.framework; sourceTree = "<group>"; };
+		F27631B020A1CAA400956E0D /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = Carthage/Build/iOS/GTMSessionFetcher.framework; sourceTree = "<group>"; };
 		F2A520801FB04D9C00E8DCFB /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		F2A520811FB04D9C00E8DCFB /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		F2A771E31FBB59E400806E90 /* CalendarEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEntity.swift; sourceTree = "<group>"; };
@@ -566,6 +580,7 @@
 		F2EF5B6B1FC1666F00E85131 /* CalendarCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCellModel.swift; sourceTree = "<group>"; };
 		F2EF5B6D1FC169BD00E85131 /* CalendarCellModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCellModelSpec.swift; sourceTree = "<group>"; };
 		F2EF5B701FC1775200E85131 /* CalendarProxyStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarProxyStub.swift; sourceTree = "<group>"; };
+		F2FF26A11FD81E94005CC598 /* EventsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -674,24 +689,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DFC8911FAF8EF900BB4491 /* Firebase.framework in Frameworks */,
-				F2DFC8E21FAF94C000BB4491 /* Protobuf.framework in Frameworks */,
-				F2DFC8881FAF8EF900BB4491 /* FirebaseInstanceID.framework in Frameworks */,
+				F29369D820A1EB560030247D /* GoogleToolboxForMac.framework in Frameworks */,
+				F27631AD20A1CA7000956E0D /* nanopb.framework in Frameworks */,
+				F27631AC20A1CA5F00956E0D /* Protobuf.framework in Frameworks */,
+				F27631A620A1CA4E00956E0D /* FirebaseAnalytics.framework in Frameworks */,
+				F27631A720A1CA4E00956E0D /* FirebaseCore.framework in Frameworks */,
+				F27631A820A1CA4E00956E0D /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				F27631A920A1CA4E00956E0D /* FirebaseCrash.framework in Frameworks */,
+				F27631AA20A1CA4E00956E0D /* FirebaseInstanceID.framework in Frameworks */,
+				F27631AB20A1CA4E00956E0D /* FirebaseNanoPB.framework in Frameworks */,
 				F2DFC8891FAF8EF900BB4491 /* CocoaLumberjack.framework in Frameworks */,
 				F2DFC88A1FAF8EF900BB4491 /* ReactiveEureka.framework in Frameworks */,
 				F2DFC88B1FAF8EF900BB4491 /* Result.framework in Frameworks */,
-				F2DFC88C1FAF8EF900BB4491 /* FirebaseCore.framework in Frameworks */,
-				F2DFC88D1FAF8EF900BB4491 /* nanopb.framework in Frameworks */,
 				F2DFC88E1FAF8EF900BB4491 /* PluggableApplicationDelegate.framework in Frameworks */,
 				F2DFC88F1FAF8EF900BB4491 /* ReactiveSwift.framework in Frameworks */,
 				F2DFC8901FAF8EF900BB4491 /* CocoaLumberjackSwift.framework in Frameworks */,
-				F2DFC8921FAF8EF900BB4491 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				F2DFC8931FAF8EF900BB4491 /* FirebaseAnalytics.framework in Frameworks */,
-				F2DFC8941FAF8EF900BB4491 /* FirebaseCrash.framework in Frameworks */,
 				F2DFC8951FAF8EF900BB4491 /* Eureka.framework in Frameworks */,
 				F2DFC8961FAF8EF900BB4491 /* ReactiveCocoa.framework in Frameworks */,
-				F2DFC8971FAF8EF900BB4491 /* FirebaseNanoPB.framework in Frameworks */,
-				F2DFC8981FAF8EF900BB4491 /* GoogleToolboxForMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,6 +744,7 @@
 			isa = PBXGroup;
 			children = (
 				366948D235EF7290137B926A /* SignalProducer+Helpers.swift */,
+				36694E32C3333134726E2BF8 /* Property+Helpers.swift */,
 			);
 			path = ReactiveCocoa;
 			sourceTree = "<group>";
@@ -837,6 +852,7 @@
 			children = (
 				F2DFC79B1FAF12BF00BB4491 /* CalendarsListVC.swift */,
 				F2DFC79D1FAF12BF00BB4491 /* Main.storyboard */,
+				F2FF26A11FD81E94005CC598 /* EventsListVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -847,6 +863,7 @@
 				366944329E7A42BD79B59F31 /* ICalendarProxy.swift */,
 				36694F1376BEA4CEAED1B89A /* CalendarProxy.swift */,
 				F2A771E31FBB59E400806E90 /* CalendarEntity.swift */,
+				366948E5FAA2A1E87605D7A3 /* EventEntity.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -879,6 +896,10 @@
 				F2D771781FD70595001EC88C /* ICalendarsListModel.swift */,
 				F2EF5B671FC0A8CF00E85131 /* CalendarsListModel.swift */,
 				F2EF5B6B1FC1666F00E85131 /* CalendarCellModel.swift */,
+				3669478618F6DEBEF15BD687 /* ICalendarEventsListModel.swift */,
+				36694A53B87C949052AAAB0E /* IEventCellModel.swift */,
+				3669437FE65B11E4354BDCAD /* EventCellModel.swift */,
+				3669479C233F15DB2E89E910 /* CalendarEventsListModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -969,6 +990,8 @@
 		F2DFC86D1FAF8E5B00BB4491 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F27631AF20A1CAA400956E0D /* GTMOAuth2.framework */,
+				F27631B020A1CAA400956E0D /* GTMSessionFetcher.framework */,
 				F25708991FC34EAD00A791AA /* UIKit.framework */,
 				F2A8F06A1FBE059200D7DE81 /* EventKit.framework */,
 				F2A520801FB04D9C00E8DCFB /* Nimble.framework */,
@@ -1307,7 +1330,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = VitaSw;
 				TargetAttributes = {
 					F26F83BD1FB4C7BD00932765 = {
@@ -1481,8 +1504,6 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/FirebaseCore.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/FirebaseCrash.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwinjectStoryboard.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/PluggableApplicationDelegate.framework",
@@ -1492,14 +1513,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjack.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjackSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Firebase.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/FirebaseAnalytics.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/FirebaseCoreDiagnostics.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/FirebaseNanoPB.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/FirebaseInstanceID.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/GoogleToolboxForMac.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/nanopb.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Protobuf.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveEureka.framework",
 			);
 			name = "carthage copy-frameworks";
@@ -1536,6 +1549,7 @@
 				366945330D6FD1BE646C86E0 /* ICalendarProxy.swift in Sources */,
 				F2A771E51FBB5B8800806E90 /* CalendarEntity.swift in Sources */,
 				3669491D15C76216ECCCFAC2 /* CalendarProxy.swift in Sources */,
+				36694EA2A373BEDAD8E3B90B /* EventEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1555,6 +1569,10 @@
 				F2EF5B6C1FC1666F00E85131 /* CalendarCellModel.swift in Sources */,
 				F2D7717B1FD705AF001EC88C /* ICalendarCellModel.swift in Sources */,
 				F2D7717C1FD705AF001EC88C /* ICalendarsListModel.swift in Sources */,
+				36694EE3FD0FF02284E98BAA /* ICalendarEventsListModel.swift in Sources */,
+				36694331AD1ACB117BC3EF12 /* IEventCellModel.swift in Sources */,
+				3669468CDA92A94977FAB3FE /* EventCellModel.swift in Sources */,
+				36694F528B5646EF266441A0 /* CalendarEventsListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1572,6 +1590,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2DFC8BD1FAF929A00BB4491 /* CalendarsListVC.swift in Sources */,
+				F2FF26A21FD81E94005CC598 /* EventsListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1594,6 +1613,7 @@
 				F2DFC8DA1FAF92E000BB4491 /* CustomCocoaLumberjackFormatter.swift in Sources */,
 				F2DFC8DB1FAF92E000BB4491 /* Logger.swift in Sources */,
 				36694D3525FAF941BF3CCB05 /* SignalProducer+Helpers.swift in Sources */,
+				36694C6A79C725F60406C347 /* Property+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1756,6 +1776,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1766,6 +1787,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1773,6 +1795,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1806,6 +1829,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1813,6 +1837,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1823,6 +1848,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1830,6 +1856,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1855,6 +1882,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1866,6 +1894,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1887,6 +1916,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8W6559GP;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1912,6 +1942,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1941,6 +1972,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -2010,6 +2042,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -2039,6 +2072,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -2106,6 +2140,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -2135,6 +2170,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -2202,6 +2238,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -2232,6 +2269,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",

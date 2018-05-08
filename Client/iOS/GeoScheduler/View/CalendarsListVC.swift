@@ -39,9 +39,7 @@ public class CalendarsListVC: FormViewController {
 			requestAccessButton.reactive.pressed = CocoaAction(viewModel.requestAccesToCalendar)
 	
 			form.reactive.value <~
-					viewModel.requestCalendars
-							.apply()
-							.omitErrors()
+					viewModel.calendars
 							.mapArrayValues { self.calendarRow(cellModel: $0) }
 		}
 	}

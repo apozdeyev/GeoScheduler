@@ -6,7 +6,6 @@
 //  Copyright © 2017 VitaSw. All rights reserved.
 //
 
-import Foundation
 import ReactiveSwift
 import Model
 import Result
@@ -19,6 +18,8 @@ public final class CalendarsListModel: ICalendarsListModel {
 	public init(calendarProxy: ICalendarProxy) {
 		self.calendarProxy = calendarProxy
 		_isAccesToCalendarGranted.value = self.calendarProxy.isAccesToCalendarGranted()
+
+		self.requestCalendarsIfAccessGranted()
 	}
 
 	public var isAccesToCalendarGranted: Property<Bool> {
@@ -33,7 +34,17 @@ public final class CalendarsListModel: ICalendarsListModel {
 			return self.calendarProxy.requestAccesToCalendar()
 					.on(value: {
 						self._isAccesToCalendarGranted.value = $0
+
+						self.requestCalendarsIfAccessGranted()
 					})
+		}
+	}
+
+	fileprivate func requestCalendarsIfAccessGranted() {
+		if (self.isAccesToCalendarGranted.value) {
+			self.requestCalendars
+					.apply()
+					.start()
 		}
 	}
 

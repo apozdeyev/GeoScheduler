@@ -12,4 +12,6 @@ public protocol ICalendarProxy {
 	func requestAccesToCalendar() -> SignalProducer<Bool, AnyError>
 
 	func requestCalendars() -> SignalProducer<[CalendarEntity], AnyError>
+
+	func requestEventsOfCalendar(calendarId: String) -> SignalProducer<[EventEntity], AnyError>
 }

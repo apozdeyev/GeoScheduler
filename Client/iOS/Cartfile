@@ -4,11 +4,27 @@ github "Quick/Nimble"
 github "Swinject/SwinjectStoryboard"
 github "fmo91/PluggableApplicationDelegate"
 
-github "soheilbm/Firebase"
+#github "soheilbm/Firebase"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseABTestingBinary.json"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseAdMobBinary.json"
+binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseAnalyticsBinary.json"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseAuthBinary.json"
+binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseCrashBinary.json"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseDatabaseBinary.json"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseDynamicLinksBinary.json"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseFirestoreBinary.json"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseFunctionsBinary.json"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseInvitesBinary.json"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseMessagingBinary.json"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebasePerformanceBinary.json"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseRemoteConfigBinary.json"
+#binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseStorageBinary.json"
 
-github "ReactiveCocoa/ReactiveCocoa" ~> 6.0
+github "ReactiveCocoa/ReactiveCocoa" ~> 7.2
 
 github "xmartlabs/Eureka"
 github "apozdeyev/ReactiveEureka" "develop"
 
 github "CocoaLumberjack/CocoaLumberjack"
+
+github "antitypical/Result" ~> 3.2

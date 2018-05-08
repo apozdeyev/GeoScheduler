@@ -15,6 +15,5 @@ public protocol ICalendarsListModel {
 	var calendars: Property<[ICalendarCellModel]> { get }
 
 	var requestAccesToCalendar: Action<(), Bool, AnyError> { get }
-
 	var requestCalendars: Action<(), [ICalendarCellModel], AnyError> { get }
 }
